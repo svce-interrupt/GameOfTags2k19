@@ -1,0 +1,163 @@
+#he{
+    margin-left: 50%;
+    color: blue; 
+}
+#bo{
+    background-color:rgb(194, 240, 240);
+}
+#pa{
+    font-size: 1cm;
+   
+}
+
+#head{
+    position: absolute;
+    top: 0%;
+    left: 0%;   
+}
+#total{
+    position: absolute;
+    top: 0%;
+    left: 0%; 
+}
+#pa{
+    color:white ;
+    text-shadow: 1px 1px 5px white, 1px 1px 10px green, 1px 1px 20px  #79ff4d;
+   
+}
+
+
+#plas{
+    border: 2px solid black;
+    position: absolute ;
+    font-size: 30px;
+    top:100%;
+    left: 100%;
+    color: #20bf6b !important;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 5px;
+    border: 4px solid #20bf6b !important;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+#plas:hover {
+    color: black !important;
+    border-radius: 50px;
+    border-color: green !important;
+    transition: all 0.3s ease 0s;
+    }
+    #p11 {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      #plas:hover #im1 {
+        opacity: 0.3;
+      }
+      #plas:hover #p11 {
+        opacity: 1;
+      }
+
+
+
+#fore{
+    border: 2px solid black;
+    position:absolute;
+    font-size: 30px;
+    top:270%;
+    left:100%;
+    color: #20bf6b !important;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 5px;
+    border: 4px solid #20bf6b !important;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+#fore:hover {
+    color: black !important;
+    border-radius: 50px;
+    border-color: green !important;
+    transition: all 0.3s ease 0s;
+    }
+    #p21 {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      #fore:hover #im2 {
+        opacity: 0.3;
+      }
+      #fore:hover #p21 {
+        opacity: 1;
+      }
+
+#wat{
+    border: 2px solid black;
+    position: absolute;
+    font-size: 30px;
+    top:447%;
+    left:100%;
+    color: #20bf6b !important;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: px;
+    border: 4px solid #20bf6b !important;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+#wat:hover {
+    color: black !important;
+    border-radius: 50px;
+    border-color:green !important;
+    transition: all 0.3s ease 0s;
+    }
+    #p31 {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      #wat:hover #im3 {
+        opacity: 0.3;
+      }
+      #wat:hover #p31 {
+        opacity: 1;
+      }
+
+      #vid{
+          position: absolute;
+          left:300%;
+          top:100%;
+      }
+      #vid1{
+        position: absolute;
+        left:300%;
+        top:300%;
+    }
+    #vid2{
+      position: absolute;
+      left:300%;
+      top:500%;
+  }

@@ -1,0 +1,83 @@
+*
+{	margin:0;
+	padding:0;
+	font-family: verdana;
+}
+
+.logo img
+{	float:left;
+	margin-top:5px;
+	margin-left:5px;
+	height:auto;
+	width:100px;
+}
+
+header
+{
+	background-image: url("about.jpg"); 
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	overflow-y: scroll;
+}
+
+ul
+{	margin-top:20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	list-style-type: none;
+}
+
+ul li
+{	display-inline: block;
+	float: right;
+}	
+
+ul li.active a
+{
+	background-color: #ccff99;
+	color: #000000;
+}
+
+ul li a
+{
+	padding: 5px 20px;
+	color: #f2f2f2;
+ 	border:6px solid #fff transparent;
+	transition:0.4s ease;
+	text-decoration: none;
+}
+
+ul li a:hover
+{
+	background-color: #ccff99;
+	color:#000000;
+}
+
+.joi
+{
+	font-size:40px;
+	top:50px;
+	left: 40px;
+	margin-top: 20px;	
+}
+
+.w3-animate-top
+{position:relative;animation:animatetop 0.8s}
+@keyframes animatetop{from{top:-600px;opacity:0} to{top:10px;opacity:1}}
+
+h1
+{	text-align:center;
+	color:#f2f2f2;
+	padding: 10px;
+	positiion: relative;
+}
+
+p
+{	display: block;
+	font-size: 17px;
+	font-family: verdana;
+	color: #f2f2f2;
+	border: 2px solid #ffffff;
+  	margin: 4px 2px;  
+}

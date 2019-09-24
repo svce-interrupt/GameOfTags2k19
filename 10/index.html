@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>blog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/nav.css">
+  <link rel="stylesheet" type="text/css" href="css/overlay.css">
+  <link rel="stylesheet" type="text/css" href="css/callout.css">
+  <link rel="stylesheet" type="text/css" href="cs0s/slideshow.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar">
+  	<a class="active" href="blog2.html"><i class="fa fa-fw fa-home"></i>Home</a>
+  	<a href="Pollution.html"><i class="fa fa-fw fa-fire"></i> Pollution</a>
+  	<a href="def.html"><i class="fa fa-fw fa-tree"></i> Deforestration</a>
+  	<a href="about.html"><i class="fa fa-fw fa-user"></i> about us</a>
+</div>
+<style type="text/css">
+h1{
+  background-color: green;
+
+}
+</style>
+</head>
+<body>
+<center><h1><em>ZERO-WASTE PLANET</em></h1></center>
+<div class="slideshow-container" background="yellow">
+
+	<div class="mySlides fade">
+	  <div class="numbertext"></div>
+	  <img src="img/1.jpg" style="width:112%">
+	  <div class="text"></div>
+    </div>
+    
+    <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="img/air.jpg" style="width:112%">
+            <div class="text"></div>
+          </div>
+
+          <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="img/noise.jpg" style="width:112%">
+                <div class="text"></div>
+              </div>
+
+	<div class="mySlides fade">
+	  <div class="numbertext"></div>
+	  <img src="img/gg.jpg" style="width:112%">
+  	  <div class="text"></div>
+	</div>
+
+	<div class="mySlides fade">
+  		<div class="numbertext"></div>
+  		<img src="img/def.jpeg" style="width:112%">
+  		<div class="text"></div>
+	</div>
+</div>
+<br>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 2000);
+  } 
+</script>
+<form style="background-color:rgb(36, 31, 43)
+	<div id="overlay" onclick="off()">
+  		<div id="text">Overlay Text</div>
+	</div>
+
+	<div style="padding:20px" style="background-color: yellow;">
+		<img src="">
+  		<h2>Pollution</h2>
+  		<button onclick="on()">Click me</button>
+  		  			<div class="callout">
+  				<div class="callout-header">Pollution</div>
+  					<span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+  						<div class="callout-container">
+    	<p>Pollution is the introduction of contaminants into the natural environment that cause adverse change.Pollution can take the form of chemical substances or energy, such as noise, heat or light. Pollutants, the components of pollution, can be either foreign substances/energies or naturally occurring contaminants. Pollution is often classed as point source or nonpoint source pollution. <a href="pollution.html">Know more</a> or close it if it is in your way.</p>
+  						</div>
+			</div>
+	</div>
+	<div style="padding:20px">
+  		<h2>Deforestation</h2>
+  		<button onclick="on()">click me</button>
+  			<div class="callout">
+  				<div class="callout-header">Deforestation</div>
+  					<span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+  						<div class="callout-container">
+    	<p> Deforestation, clearance, clearcutting or clearing is the removal of a forest or stand of trees from land which is then converted for non-forest use. Deforestation can involve conversion of forest land to farms, ranches, or urban use. The most concentrated deforestation occurs in tropical rainforests. About 31% of Earth's land surface is covered by forests.Search for more results<a href="def.html"> Know more</a> or close it if it is in your way.</p>
+  						</div>
+			</div>
+	</div>
+	<script type="text/javascript">
+		function on() {
+  		document.getElementById("overlay").style.display = "block";
+		}
+
+		function off() {
+  		document.getElementById("overlay").style.display = "none";
+		}
+	</script>
+</form>
+
+</body>
+
+</html>

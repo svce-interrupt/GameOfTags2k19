@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.side {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+   
+    background: white;
+    overflow-x: hidden;
+    padding: 8px 0;
+    
+    margin-top:20%;
+}
+
+.side a {
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 25px;
+color: black;
+display: block;
+text-align:center;
+}
+
+.main {
+margin:auto;
+font-size: 20px; 
+padding: 0px 10px;
+margin-top:50px;
+border-left: 2px solid #eee;
+
+}
+.container{
+    max-width:1400px !important;
+}
+
+#nat{
+    margin-top:30px;
+}
+#id{
+    margin-top:700px;
+}

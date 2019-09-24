@@ -1,0 +1,22 @@
+.container{
+    max-width: 1600px !important;
+}
+#site-name {
+    position: absolute;
+    width: 50%;
+    margin-left: -45%;
+    top: 31%;
+    left: 50%;
+    z-index: 1;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    transition: transform 1s ease-in;
+}
+.why{
+    margin:auto;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}

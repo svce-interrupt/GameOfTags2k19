@@ -1,0 +1,329 @@
+@font-face{
+    font-family: roboto;
+    src: url(roboto.ttf);
+}
+
+body{
+    font-family: roboto;
+    background: #ffffff;
+    margin: 0%;
+}
+
+
+
+nav{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    opacity: 0.3;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.12);
+}   
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 3vh;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.1em;
+}
+ 
+
+header{
+    width: 100%;
+    height: 100vh;
+}
+
+.bg{
+    height: 100vh;
+    width: 100%;
+    background:  linear-gradient(rgba(0,0,0,0.24),rgba(0,0,0,0.24)) url(img/bg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content{
+    width: 90%;
+    height: 70%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.a{
+    text-decoration: none;
+    color: #223322; 
+    font-size: 1.5em;
+}
+
+
+.kolo{
+    margin: 10px;
+    width: 20%;
+    height: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 0.8;
+    transition: 0.3s ease;
+}
+
+.kolo:hover{
+    width: 30%;
+    height: 100%;
+}
+.kolo:hover img{
+    transform: rotate(40deg);
+}
+
+.kolo1{
+    margin: 10px;
+    width: 28%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    overflow: hidden;
+    opacity: 0.9;
+    transition: 0.3s ease;
+    }
+.kolo1:hover{
+    width: 30%;
+    height: 100%;
+    opacity: 100;
+}
+
+.img{
+    width: 50%;
+    transition: 0.8s;
+}
+.img2{
+    width: 90%;
+    border-radius: 50px;
+}
+.img3{
+    height: 85%;
+    width: 85%;
+    border-radius: 50px;
+
+}
+
+.one{
+    width: 100%;
+    height: 60%;
+    background:#81ebc2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.three{
+    width: 100%;
+    height: 10%;
+    background:#6eebb0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.two{
+    width: 100%;
+    height: 30%;
+    background:#80f198;
+    display: flex;
+    justify-content: center;
+    color: #333333;
+}
+
+.p{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    color: #333333;
+}
+
+
+.img1{
+    height: 100vh;
+    width: 100%;
+    background:  linear-gradient(rgba(0,0,0,0.24),rgba(0,0,0,0.24));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+
+
+ .content1{
+    width: 90%;
+    height: 70%;
+    position: fixed;
+    display: flex;
+    justify-content: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .one1{
+    width: 100%;
+    height: 60%;
+    background:#41a3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.three3{
+    width: 100%;
+    height: 10%;
+    background:#54ade0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.two2{
+    width: 100%;
+    height: 30%;
+    background:#0489c7;
+    display: flex;
+    justify-content: center;
+    color: #333333;
+}
+
+
+
+
+
+
+.one11{
+    width: 100%;
+    height: 60%;
+    background:#99b4ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.three33{
+    width: 100%;
+    height: 10%;
+    background:#9bd0ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.two22{
+    width: 100%;
+    height: 30%;
+    background:#bcdeee;
+    display: flex;
+    justify-content: center;
+    color: #333333;
+}
+
+footer{
+    background: #edf6fa;
+    height: 100vh;
+    width: 100%;
+    position:relative;
+}
+
+new{
+    background: #edf6fa;
+    height: 100vh;
+    width: 100%;
+    position:relative;
+}
+
+
+.contentn{
+    background: #f3f4f5;
+    width: 90%;
+    height: 70%;
+    
+    
+}
+
+
+.bg1{
+    height: 100vh;
+    width: 100%;
+    background:  linear-gradient(rgba(0,0,0,0.24),rgba(0,0,0,0.24)) url(img/bg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+
+    justify-content: left;
+
+}
+.hi{
+    justify-content: right;
+}
+
+
+
+
+
+
+.kolo2{
+    margin: 10px;
+    width: 65%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    overflow: hidden;
+    opacity: 0.9;
+    transition: 0.3s ease;
+    }
+.kolo2:hover{
+    width: 80%;
+    height: 100%;
+    opacity: 100;
+}

@@ -1,0 +1,153 @@
+.large-hero{
+  border-bottom: 10px solid powderblue;
+  position:relative;
+  margin: auto;
+}
+
+img{
+  display: block;
+}
+
+.header{
+  margin-right:0px;
+}
+
+.button {
+  background-color: powderblue;
+  border: none;
+  padding: 12px 5px 0px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+body {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+
+.text-content{
+  position:absolute;
+  top:50%;
+  left:0;
+  width: 100%;
+  text-align: center;
+  transform:translateY(-90%);
+  
+  padding-top: 88px;
+  padding-left: -20px;
+}
+
+.title{
+  font-weight: 300;
+  font-size: 70px;
+  margin:0;
+  
+}
+
+.subtitle{
+  font-weight: 300;
+  color:black;
+  font-size: 1.5rem;
+  margin:0;
+
+}
+
+.description{
+  color:#fff;
+  font-size: 1.1rem;
+  font-weight: 100;
+  text-shadow: 2px 2px 0 rgba(0,0,0,.1);
+  max-width: 30rem;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+  
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  color: #76D0CB;
+}
+
+.abt{
+  background-color:white;
+  text-align:center;
+
+}
+
+
+nav {
+  background-color: #000;
+  display: block;
+  padding: 1em 0;
+  text-align: center;
+  width: auto;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+.scrolling-box {
+  background-color: #eaeaea;
+   display: block;
+  height:700px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  text-align: center;
+  width: auto;
+}
+
+p{
+align:center;
+font-family:verdana;
+font-size:20px;
+}
+
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+nav a:hover
+{
+  background-color: #B3AAAA;
+}
